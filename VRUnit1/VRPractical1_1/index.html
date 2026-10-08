@@ -5,15 +5,18 @@
   <body>
     <a-scene>
  <a-entity class="tire"> 
-<a-torus radius="1" width="3" rotation="0 0 90" src="tires.jpg"></a-torus>
-<a-torus position="5 0 0" radius="1" width="3" rotation="0 0 90"  src="tires.jpg"></a-torus>
-<a-torus position="0 0 7" radius="1" width="3" rotation="0 0 90"  src="tires.jpg"></a-torus>
-<a-torus position="5 0 7" radius="1" width="3" rotation="0 0 90"  src="tires.jpg" ></a-torus>
+<a-cylinder radius="1"  rotation="0 0 90"  src="tires.webp"></a-cylinder>
+<a-cylinder position="5 0 0" radius="1" width="2" rotation="0 0 90"  src="tires.webp"></a-cylinder>
+<a-cylinder position="0 0 7" radius="1" width="2" rotation="0 0 90"  src="tires.webp"></a-cylinder>
+<a-cylinder position="5 0 7" radius="1" width="2" rotation="0 0 90"  src="tires.webp"></a-cylinder>
 </a-entity>
 
-<a-entity class="rim">
-
-
+<a-entity class="body">
+<a-box position="2.5 1.2 4" width="7" depth="-10"></a-box>
+<a-box position="2.5 2.2 8.5" width="7"></a-box>
+<a-box position="5.5 2.2 6" rotation="0 90 0" width="4" depth=""></a-box>
+<a-box position="-0.5 2.2 6" rotation="0 90 0" width="4" depth=""></a-box>
+<a-box position="2.5 2.2 4.5" width="7"></a-box>
 </a-entity>
 
 
